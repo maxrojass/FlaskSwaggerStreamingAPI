@@ -71,6 +71,7 @@ _To run any command with AWS CLI use -------> docker run --rm -it amazon/aws-cli
     export AWS_SECRET_ACCESS_KEY="SECRET_ACCESS_KEY" 
     export AWS_DEFAULT_REGION="REGION"
     ```
+8. Create a .pem key file and move it to ./flask_api/terraform-docker-container/terraform-aws-instance/aws/
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
