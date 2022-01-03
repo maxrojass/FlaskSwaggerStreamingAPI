@@ -1,0 +1,7 @@
+---
+- hosts: ${aws_instance.FlaskSwagger.public_ip}
+  sudo: yes
+
+  tasks:
+  - name: Execute script
+    command: /FLASK_API/app.py
