@@ -41,6 +41,7 @@ Python
     docker run --rm -it amazon/aws-cli --version
    ```
 _To run any command with AWS CLI use -------> docker run --rm -it amazon/aws-cli --COMMAND--_
+
 3. Confiugre AWS CLI
     ```sh
     docker run --rm -it amazon/aws-cli configure  
