@@ -3,7 +3,7 @@
 
 This is a project to create a scalable HTTP api that writes raw data to
 a data lake in AWS S3 using also the services EC2 and Kinesis Firehose to track which features are being used by each
-user in order to understand what drives retention.. the code includes:
+user in order to understand what drives retention. the code includes:
 - Docker
 - Swagger
 - Terraform
